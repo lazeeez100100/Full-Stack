@@ -1,10 +1,8 @@
 set -x
 set -e
-
 eb init  ud  --platform node.js --region us-east-1
 eb create --sample ud-env
 eb use ud-env
-
 eb setenv AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID &&
 eb setenv AWS_BUCKET=$AWS_BUCKET &&
 eb setenv AWS_DEFAULT_REGION=$AWS_REGION &&
@@ -18,5 +16,4 @@ eb setenv POSTGRES_HOST=$POSTGRES_HOST &&
 eb setenv POSTGRES_PASSWORD=$POSTGRES_PASSWORD &&
 eb setenv POSTGRES_USERNAME=$POSTGRES_USERNAME &&
 eb setenv URL=$URL 
-
 eb deploy ud-env
