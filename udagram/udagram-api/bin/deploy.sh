@@ -1,7 +1,6 @@
 set -x
 set -e
 eb init  udagram-api  --platform node.js --region us-east-1
-eb create --sample Udagramapi-env
 eb use Udagramapi-env
 eb setenv AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID &&
 eb setenv AWS_BUCKET=$AWS_BUCKET &&
