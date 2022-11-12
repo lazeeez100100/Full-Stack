@@ -10,4 +10,4 @@ s3 : http://awni.s3-website-us-east-1.amazonaws.com/home
 db : udgram.ccvrqbltcels.us-east-1.rds.amazonaws.com
 
 this is Infrastructure diagram
-![CircleCI](./diagram/aws.png)
+![CircleCI](./aws.png)
