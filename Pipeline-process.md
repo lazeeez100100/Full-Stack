@@ -14,4 +14,4 @@ her we use circleci as pipeline-as-a-service.CircleCI presents a great set of fe
 then the users can interact with ***eb*** server using ***s3*** frontend
 
 this is the diagram for this process.
-![CircleCI](./diagram/ci.png)
+![CircleCI](./ci.png)
